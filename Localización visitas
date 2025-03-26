@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+  </head>
+  <body>
+    
+    <script>
+      
+      var formURL = "<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+  </head>
+  <body>
+    
+    <script>
+      
+      var formURL = "https://docs.google.com/forms/d/e/SetYourFormURL/viewform?usp=pp_url&entry.612911609=";
+
+      function getLocation() {
+        if (navigator.geolocation) {
+          navigator.geolocation.getCurrentPosition(showPosition);
+        } else { 
+          showPosition(null);
+        }
+      }
+      
+      function showPosition(position) {
+        var loc = position ? position.coords.latitude + "," + position.coords.longitude : "";
+        window.location.href = formURL + loc;
+      }
+
+      getLocation();
+      
+    </script>
+
+  </body>
+</html>";
+
+      function getLocation() {
+        if (navigator.geolocation) {
+          navigator.geolocation.getCurrentPosition(showPosition);
+        } else { 
+          showPosition(null);
+        }
+      }
+      
+      function showPosition(position) {
+        var loc = position ? position.coords.latitude + "," + position.coords.longitude : "";
+        window.location.href = formURL + loc;
+      }
+
+      getLocation();
+      
+    </script>
+
+  </body>
+</html>
