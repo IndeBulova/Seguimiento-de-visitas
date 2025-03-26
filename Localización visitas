@@ -16,7 +16,7 @@
     
     <script>
       
-      var formURL = "https://docs.google.com/forms/d/e/SetYourFormURL/viewform?usp=pp_url&entry.612911609=";
+      var formURL = "https://docs.google.com/forms/d/e/1FAIpQLSfBorzVmSas_4EzRClwdfYKl1yT-hkkwIRZ249e_Sl3MPLq4w/viewform?usp=pp_url";
 
       function getLocation() {
         if (navigator.geolocation) {
